@@ -14,7 +14,7 @@ export class ProductRepository {
     }
     getProducts(): Product[]{
         return this.products; //uzunlugunu yazdıır.
-    }
+    } //bize urunleri getiriyor.
     //disaridan id bilgisi alıp bize product gönderecek.
     getProductById(id: number): Product{
         return this.products.find(p => p.id == id)!;
